@@ -1,0 +1,45 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.root {
+    width:50%;
+    margin:auto;
+}
+
+h1 {
+    text-align: center;
+    color: #274ba8;
+}
+
+#logo {
+    width:25%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    height:auto;
+}
+
+.pseudo {
+    max-width: 50%;
+    margin:auto;
+}
+
+.casesBingo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    max-width: 50%;
+    line-height: 16px;
+    margin:auto;
+}
+
+.caseBingo:nth-child(odd) {
+    background-color: rgb(214, 226, 230);
+}
+
+.caseBingo {
+    padding: 2.5%;
+    margin: 0.5%;
+}
